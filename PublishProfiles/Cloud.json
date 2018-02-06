@@ -4,13 +4,13 @@
 
  {
 
-    "ConnectionIPOrURL": "yogzvsts.southeastasia.cloudapp.azure.com ",
+    "ConnectionIPOrURL": "yogzvsts1.southeastasia.cloudapp.azure.com ",
 
     "ConnectionPort": "19080",
 
-    "ClientKey": "sf.key",
+    "ClientKey": "sf1.key",
 
-    "ClientCert": "sf.crt"
+    "ClientCert": "sf1.crt"
 
  }
 
