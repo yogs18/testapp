@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <ClusterConnectionParameters>
+      <ClientCert>sf1.crt</ClientCert>
+      <ClientKey>sf1.key</ClientKey>
+      <ConnectionIPOrURL>yogzvsts1.southeastasia.cloudapp.azure.com </ConnectionIPOrURL>
+      <ConnectionPort>19080</ConnectionPort>
+   </ClusterConnectionParameters>
+</root>
