@@ -1,0 +1,17 @@
+{
+
+ "ClusterConnectionParameters": 
+
+ {
+
+    "ConnectionIPOrURL": "yogzvsts.southeastasia.cloudapp.azure.com ",
+
+    "ConnectionPort": "19080",
+
+    "ClientKey": "sf.key",
+
+    "ClientCert": "sf.crt"
+
+ }
+
+}
