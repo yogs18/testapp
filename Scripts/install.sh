@@ -1,5 +1,7 @@
 #!/bin/bash -ex
 
+sfctl cluster select --endpoint https://yogzvsts1.southeastasia.cloudapp.azure.com:19080 --key ./sf1.key --cert ./sf1.crt --no-verify
+
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 appPkgPath="$DIR/../testappApplication"
 
