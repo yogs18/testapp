@@ -14,6 +14,9 @@ allprojects {
         }
       } 
 
+    task wrapper(type: Wrapper) {
+        gradleVersion = '2.0' //version required
+      }
     task clusterconnect(type:Exec){
        if ( project.hasProperty("ip") && project.hasProperty("port") && project.hasProperty("clientKey") && project.hasProperty("clientCert")) {
             commandLine '/bin/bash','Scripts/connect.sh', '-ip', Eval.me(ip), '-port', Eval.me(port), '-clientKey', Eval.me(clientKey), '-clientCert', Eval.me(clientCert) 
